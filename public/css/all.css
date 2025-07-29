@@ -136,6 +136,11 @@ a:hover{text-decoration:underline;}
 	width:100%;
     display:table-row;
     background: #50af6f;
+	/* background-color: orange; */
+	background-image: url("../images/bg01.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: contain, cover;
 }
 .wrapper-holder.grey{background: #28292b;}
 #header {
@@ -158,12 +163,13 @@ a:hover{text-decoration:underline;}
 	text-align:center;
 	font-family: 'novecentosanswide';
 	font-weight:bold;
-	color: #fff;
+	color: #ffff00;
 	font-size: 72px;
 	line-height: 74px;
 	display: block;
 	text-transform: uppercase;
 	margin: 85px 0 23px;
+	text-shadow: 5px 3px 1px rgba(0, 0, 0, .8);
 }
 #nav {
 	position: relative;
